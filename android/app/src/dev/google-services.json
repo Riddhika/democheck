@@ -1,0 +1,186 @@
+{
+  "project_info": {
+    "project_number": "800460919408",
+    "project_id": "fastlane-335707",
+    "storage_bucket": "fastlane-335707.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800460919408:android:e04121038f289495c31ab5",
+        "android_client_info": {
+          "package_name": "com.app.fastlanewithcicd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800460919408-gta1u174rsedcgur0rmq0snuvgfce3e6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.fastlanewithcicd",
+            "certificate_hash": "c0c3cde8edab2e2b9b351feda8b4cda401523740"
+          }
+        },
+        {
+          "client_id": "800460919408-s2gqjbon1pr5ahu2j3pa7raovg1iaj6i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.fastlanewithcicd",
+            "certificate_hash": "bdf2a1e1f75175f3270ac2b1b8ef8b7dbecbea19"
+          }
+        },
+        {
+          "client_id": "800460919408-tba323nqg5935fjp34k5bc552mhhui33.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLI4pFnzQ0EMCJG8pgs84d5qxLRDt1pC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800460919408-tba323nqg5935fjp34k5bc552mhhui33.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "800460919408-1hfbm3m5avsd3l4usdg7o99b8edj6tev.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.iosapp.setup"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800460919408:android:4c1338d4e224048ec31ab5",
+        "android_client_info": {
+          "package_name": "com.flutter.mvvm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800460919408-tba323nqg5935fjp34k5bc552mhhui33.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLI4pFnzQ0EMCJG8pgs84d5qxLRDt1pC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800460919408-tba323nqg5935fjp34k5bc552mhhui33.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "800460919408-1hfbm3m5avsd3l4usdg7o99b8edj6tev.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.iosapp.setup"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800460919408:android:3a715cbb8c532680c31ab5",
+        "android_client_info": {
+          "package_name": "com.flutter.mvvm.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800460919408-tba323nqg5935fjp34k5bc552mhhui33.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLI4pFnzQ0EMCJG8pgs84d5qxLRDt1pC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800460919408-tba323nqg5935fjp34k5bc552mhhui33.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "800460919408-1hfbm3m5avsd3l4usdg7o99b8edj6tev.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.iosapp.setup"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800460919408:android:0d82da57f0fb4ce9c31ab5",
+        "android_client_info": {
+          "package_name": "com.flutter_cicd_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800460919408-lnmvmtvaectl239mpqhhpn70jp13m612.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.flutter_cicd_demo",
+            "certificate_hash": "63dbff29fd57daed49ec191942e5bf2e6b5d9888"
+          }
+        },
+        {
+          "client_id": "800460919408-u91od6g9t82usjr7c4kuu9p2avn1b5fq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.flutter_cicd_demo",
+            "certificate_hash": "e67d3be5ee543f8ea0986d2f6d39a7cb0f11c4b3"
+          }
+        },
+        {
+          "client_id": "800460919408-tba323nqg5935fjp34k5bc552mhhui33.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLI4pFnzQ0EMCJG8pgs84d5qxLRDt1pC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800460919408-tba323nqg5935fjp34k5bc552mhhui33.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "800460919408-1hfbm3m5avsd3l4usdg7o99b8edj6tev.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.iosapp.setup"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
