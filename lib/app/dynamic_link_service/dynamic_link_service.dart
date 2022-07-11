@@ -8,38 +8,7 @@ import '../utils/app_constant.dart';
 
 Future<void> initDynamicLinks(
     {BuildContext? context, Function()? setDuration}) async {
-  FirebaseDynamicLinks.instance.onLink(
-      onSuccess: (dynamicLink) async {
-    final Uri deepLink = dynamicLink!.link;
-    print("deepLink path-> ${deepLink.path}");
-    print("Deeplink Path Token -> ${deepLink.queryParameters['token']}");
-    print("Deeplink Path Created -> ${deepLink.queryParameters['created']}");
-    String linkToken = deepLink.queryParameters['token']!;
-    int created = int.parse(deepLink.queryParameters['created']!);
-
-    final diffrenceMin = dynamicLinkExpiredOrNot(created: created);
-
-    print('Diffrence Miniute - > $diffrenceMin');
-
-    if (diffrenceMin >= 10) {
-      print("Forground Diffrence Minitues Expired");
-      navigatorKey.currentState!.pushAndRemoveUntil(MaterialPageRoute(
-          builder: (context) => const LinkExpiredPage(
-          )), (route) => false).then((value) => print("navigator2"));
-      print("navigator1");
-    } else {
-      print("Forground Diffrence Minitues Not Expired");
-      navigatorKey.currentState!.pushAndRemoveUntil(MaterialPageRoute(
-          builder: (context) => NewPasswordPage(
-                linkToken: linkToken,
-              )), (route) => false).then((value) => print("navigator1"));
-      print("navigator");
-    }
-    setDuration!();
-  }, onError: (OnLinkErrorException e) async {
-    print('onLinkError');
-    print(e.message);
-  });
+  FirebaseDynamicLinks.instance.onLink;
 
   // this is called when app is not open in background
   final PendingDynamicLinkData? data =
