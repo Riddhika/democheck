@@ -45,3 +45,4 @@ class RegisterPageViewModel {
   }
 }
 
+// pinal added
