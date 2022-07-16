@@ -4,4 +4,5 @@ import 'main.dart';
 void main(){
   ConstantEnvironment.setEnvironment(Environment.prod);
   mainDelegate();
+  // register module added
 }
